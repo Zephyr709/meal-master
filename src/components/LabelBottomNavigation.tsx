@@ -25,7 +25,9 @@ export default function LabelBottomNavigation() {
       display: 'flex',
       justifyContent: 'center',
       alignItems: 'center',
-      width:'100%'
+      width:'100%',
+      borderTop: '1px solid lightGray'
+      
     }} 
     value={value} 
     onChange={handleChange}>
