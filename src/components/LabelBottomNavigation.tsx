@@ -17,9 +17,20 @@ export default function LabelBottomNavigation() {
   };
 
   return (
-    <BottomNavigation sx={{ width: 500 }} value={value} onChange={handleChange}>
+    <BottomNavigation 
+    sx={{ 
+      position: 'fixed',
+      bottom: '0',
+      left: '0',
+      display: 'flex',
+      justifyContent: 'center',
+      alignItems: 'center',
+      width:'100%'
+    }} 
+    value={value} 
+    onChange={handleChange}>
       <BottomNavigationAction
-        label="AI Assistant"
+        label="Assistant"
         value="assistant"
         icon={<ChatBubbleIcon />}
       />
