@@ -37,7 +37,7 @@ export default function DayTabs() {
         {id: 6, shortForm: 'Sun', longForm: 'Sunday'},
     ];
 
-    // Renders in shorthand form and with scroll buttons if Component exceed viewport width
+    // Renders in shorthand form and with scroll buttons if Component exceeds viewport width
     if (viewportWidth < 700) {
            return (
         <Box >
