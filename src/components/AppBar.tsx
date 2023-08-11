@@ -72,6 +72,7 @@ export default function PrimarySearchAppBar() {
 
           <Box sx={{ flexGrow: 1 }} />
           <Box sx={{ display: { xs: 'flex', md: 'flex' } }}>
+            {/*
             <IconButton
               size="large"
               aria-label="show 4 new mails"
@@ -81,6 +82,7 @@ export default function PrimarySearchAppBar() {
                 <MailIcon />
               </Badge>
             </IconButton>
+  */}
             <IconButton
               size="large"
               aria-label="show 17 new notifications"

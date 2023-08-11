@@ -8,6 +8,7 @@ export default function PlannedRecipes() {
     return (
         <Stack
         spacing={2}
+        
         >
             <Card>
                 <CardHeader
