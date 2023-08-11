@@ -4,6 +4,7 @@ import StarIcon from '@mui/icons-material/Star';
 
 
 export default function PlannedRecipes() {
+    const rating = 4.1
     return (
         <Stack
         spacing={2}
@@ -14,7 +15,7 @@ export default function PlannedRecipes() {
                 action={
                     <Rating
                     name='text-feedback'
-                    value={4.5}
+                    value={rating}
                     readOnly
                     precision={0.5}
                     emptyIcon={<StarIcon style={{opacity: 0.55}}/>}
